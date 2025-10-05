@@ -1,0 +1,35 @@
+PS C:\Users\Owner\Downloads\samurai_terakoya> cd C:\Users\Owner\Downloads\git_challenge
+PS C:\Users\Owner\Downloads\git_challenge> git commit -m "hello_world.txtを追加"  
+[main 7afa7cc] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 hello_world.txt
+PS C:\Users\Owner\Downloads\git_challenge> git commit -m "日本語訳を追記"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello_world.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Owner\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\Owner\Downloads\git_challenge> git commit -m "日本語訳を追加"
+[main 375761b] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\Owner\Downloads\git_challenge> git log --oneline
+375761b (HEAD -> main) 日本語訳を追加
+7afa7cc hello_world.txtを追加
+c5f0eee Hello, world!
+PS C:\Users\Owner\Downloads\git_challenge> git log
+commit 375761b887a3ff8d9685b35a82113f7546cdeaea (HEAD -> main)
+Author: votetsumacky <votetsumacky19730128@gmail.com>
+Date:   Mon Oct 6 06:27:00 2025 +0900
+
+    日本語訳を追加
+
+commit 7afa7cc5aa8e63d8c1f1c837654243e686bdd019
+Author: votetsumacky <votetsumacky19730128@gmail.com>
+Date:   Mon Oct 6 06:23:54 2025 +0900
+
+    hello_world.txtを追加
+
+:
